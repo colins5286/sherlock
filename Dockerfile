@@ -15,7 +15,7 @@ RUN pip3 wheel -r /opt/sherlock/requirements.txt
 FROM python:3.7-alpine
 WORKDIR /opt/sherlock
 ARG VCS_REF
-ARG VCS_URL="https://github.com/sherlock-project/sherlock"
+ARG VCS_URL="https://github.com/colins5286/sherlock"
 LABEL org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url=$VCS_URL
 COPY --from=build /wheels /wheels
