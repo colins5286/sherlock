@@ -1076,6 +1076,13 @@
     "username_claimed": "ok",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Open Knowledge Forum": {
+    "errorType": "status_code",
+    "url": "https://discuss.okfn.org/u/{}/summary",
+    "urlMain": "https://discuss.okfn.org/",
+    "username_claimed": "loleg",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "OpenStreetMap": {
     "errorType": "status_code",
     "url": "https://www.openstreetmap.org/user/{}",
